@@ -436,7 +436,7 @@ def update_ikfast_package(args):
             + "ikfast_output_path="
             + args.ikfast_output_path
             + "\n\n"
-            + "rosrun moveit_kinematics create_ikfast_moveit_plugin.py\\\n"
+            + "ros2 run moveit_kinematics create_ikfast_moveit_plugin.py\\\n"
             + "  --search_mode=$search_mode\\\n"
             + "  --srdf_filename=$srdf_filename\\\n"
             + "  --robot_name_in_srdf=$robot_name_in_srdf\\\n"
